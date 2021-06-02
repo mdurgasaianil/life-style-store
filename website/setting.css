@@ -1,0 +1,28 @@
+.for{
+  margin-top: 10px;
+}
+.container_index{
+    margin-top: 80px;
+}
+#req{
+  padding-bottom: 10px;
+}
+.entity::after{
+      content: "\00A9";
+      font-size: 20px;
+  }
+.footer{
+  margin-top: 400px;
+  height: 50px;
+  background: black;
+  color:#ffffff57;
+  padding-top: 5px;
+}
+@media(max-width:530px){.col-xs-offset-3{
+  margin-left:50px;
+  width:70%;
+    }}
+    @media(max-width:400px){.col-xs-offset-3{
+      margin-left:10px;
+      width:100%;
+        }}

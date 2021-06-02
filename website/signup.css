@@ -1,0 +1,40 @@
+.container_index{
+  padding-top: 100px;
+}
+.panel-heading{
+text-transform: uppercase;
+}
+.glyph{
+  font-size: 40px;
+}
+.circle{
+  width:auto;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius:30px;
+}
+#msg{
+  font-style: italic;
+  color:#ff002fa1;
+}
+.but{
+  margin-top: 15px;
+}
+.for{
+  margin-top: 10px;
+}
+.footer{
+  height: 50px;
+  background: black;
+  color:#ffffff57;
+  padding-top: 5px;
+}
+.entity::after{
+      content: "\00A9";
+      font-size: 20px;
+  }
+.anch:hover{
+  text-decoration: none;
+  color:blue;
+}

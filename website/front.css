@@ -1,0 +1,62 @@
+.navbar{
+  border-radius:0px;
+}
+.background{
+background-image:url("intro.jpg");
+background-size: cover;
+height:700px;
+margin:0px;
+}
+@media(min-width:320px){.background{
+
+  width:100%;
+  }}
+@media(max-width:360px){.background{
+  background-image: url("introP.jpg");
+
+    }}
+@media(min-width:481px){.background{
+    width:100%;
+    }}
+@media(max-width:641px){.background{
+  width:100%;
+
+      }}
+@media(min-width:961px){.background{
+    width:100%;
+      }}
+@media(min-width:1000px){.background{
+    width:100%;
+    }}
+
+h1{
+  font-size: 45px;
+
+}
+.col-xs-9{
+  width:100%;
+}
+.panel{
+  margin-top: 300px;
+  background:rgba(0,0,0,0.5);
+}
+.panel-footer{
+  background:rgba(0,0,0,0);
+  border: 0px;
+}
+.panel-body{
+  color:white;
+}
+@media(min-width:1000px){.col-xs-9{
+    width:50%;
+    }}
+.entity::after{
+      content: "\00A9";
+      font-size: 20px;
+  }
+.footer{
+  height: 50px;
+  background: black;
+  color:#ffffff57;
+  padding-top: 5px;
+}
